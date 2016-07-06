@@ -10,7 +10,7 @@ percController = ControllerShape {
        mCC reverb_p 91,
        mCC chorus_p 93
        ],
-    latency = 0.1
+    latency = 0.3
     }
 
 perc = midinote . (percN <$>)
