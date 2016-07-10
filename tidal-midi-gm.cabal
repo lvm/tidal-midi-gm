@@ -15,6 +15,7 @@ cabal-version:       >=1.10
 
 library
   exposed-modules:     Sound.Tidal.MIDI.GMPerc
+                       Sound.Tidal.MIDI.GMSynth
   -- other-modules:
   -- other-extensions:
   Build-depends: base < 5, tidal == 0.8, tidal-midi == 0.8, PortMidi == 0.1.6.0, time, containers, transformers
