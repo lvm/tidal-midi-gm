@@ -8,7 +8,13 @@ percController = ControllerShape {
     controls = [
        mCC balance_p 10,
        mCC reverb_p 91,
-       mCC chorus_p 93
+       mCC chorus_p 93,
+       mCC modwheel_p 1,
+       mCC pan_p 10,
+       mCC balance_p 8,
+       mCC expression_p 11,
+       mCC sustainpedal_p 64,
+       mCC portamento_p 5
        ],
     latency = 0.3
     }
