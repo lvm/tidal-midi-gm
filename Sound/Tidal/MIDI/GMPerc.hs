@@ -1,6 +1,7 @@
 module Sound.Tidal.MIDI.GMPerc where
 
 import Sound.Tidal.Params
+import Sound.Tidal.MIDI.GMParams
 import Sound.Tidal.MIDI.Control
 
 percController :: ControllerShape
@@ -87,7 +88,3 @@ percN _ = 0
 
 -- general shape for stream
 percShape = toShape percController
-
-(balance, balance_p) = pF "balance" (Just 0)
-(reverb, reverb_p) = pF "reverb" (Just 0)
-(chorus, chorus_p) = pF "chorus" (Just 0)

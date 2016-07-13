@@ -1,6 +1,7 @@
 module Sound.Tidal.MIDI.GMSynth where
 
 import Sound.Tidal.Params
+import Sound.Tidal.MIDI.GMParams
 import Sound.Tidal.MIDI.Control
 
 synthController :: ControllerShape
@@ -17,5 +18,3 @@ synthController = ControllerShape {
   }
 
 synth = toShape synthController
-
-(balance, balance_p) = pF "balance" (Just 0)
