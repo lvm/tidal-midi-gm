@@ -1,5 +1,9 @@
 TidalCycles MIDI bindings for General MIDI for Percussion.
 
+# Archived
+
+This repo is currently archived because this has been merged in the Tidalcycles Core. 
+
 # Requirements
 
 ghc >= 7.10  
